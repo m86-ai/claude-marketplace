@@ -1,0 +1,22 @@
+{
+  "name": "m86-claude-marketplace",
+  "owner": {
+    "name": "M86.ai"
+  },
+  "metadata": {
+    "description": "M86 curated plugins for Claude Code and Cowork",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      },
+      "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
+      "version": "4.3.1",
+      "strict": true
+    }
+  ]
+}
