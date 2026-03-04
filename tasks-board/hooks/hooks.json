@@ -1,0 +1,14 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '## Tasks Board Plugin\\n\\nThe tasks-board plugin is active. Use `/tasks-board` to launch the visual UI.\\nTask files live in the `tasks/` directory as markdown with epic subdirectories.'",
+          "timeout": 5
+        }
+      ]
+    }
+  ]
+}

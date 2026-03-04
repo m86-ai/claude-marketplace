@@ -1,0 +1,9 @@
+{
+  "name": "tasks-board",
+  "version": "0.1.0",
+  "description": "Visual task board backed by markdown files. Epic directories contain task .md files with subtask checkboxes — zero dependencies, full CRUD UI.",
+  "author": {
+    "name": "Rodrigo Garcia"
+  },
+  "keywords": ["tasks", "board", "kanban", "markdown", "productivity"]
+}

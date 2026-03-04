@@ -28,3 +28,4 @@ Add as a marketplace source in plugin settings, or via `known_marketplaces.json`
 | Plugin | Source | Description |
 |--------|--------|-------------|
 | superpowers | [obra/superpowers](https://github.com/obra/superpowers) | TDD, debugging, collaboration patterns, proven agentic techniques |
+| tasks-board | included | Visual task board backed by markdown files — epics, tasks, subtask checkboxes, zero deps |

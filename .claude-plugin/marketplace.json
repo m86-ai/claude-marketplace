@@ -17,6 +17,20 @@
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
       "version": "4.3.1",
       "strict": true
+    },
+    {
+      "name": "tasks-board",
+      "source": {
+        "source": "relative",
+        "path": "tasks-board"
+      },
+      "description": "Visual task board backed by markdown files — epic directories, task .md files, subtask checkboxes, zero dependencies",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rodrigo Garcia"
+      },
+      "tags": ["tasks", "board", "kanban", "markdown", "productivity"],
+      "strict": true
     }
   ]
 }
