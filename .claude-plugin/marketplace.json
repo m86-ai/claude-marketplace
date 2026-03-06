@@ -31,6 +31,20 @@
       },
       "tags": ["tasks", "board", "kanban", "markdown", "productivity"],
       "strict": true
+    },
+    {
+      "name": "plugin-sync",
+      "source": {
+        "source": "relative",
+        "path": "plugin-sync"
+      },
+      "description": "Clone remote plugin repos and package them as installable .plugin files for Cowork — bridges Claude Code marketplace to Cowork",
+      "version": "0.1.0",
+      "author": {
+        "name": "M86.ai"
+      },
+      "tags": ["plugin-management", "sync", "remote-install", "utility"],
+      "strict": true
     }
   ]
 }

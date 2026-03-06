@@ -1,0 +1,10 @@
+{
+  "name": "plugin-sync",
+  "version": "0.1.0",
+  "description": "Clone remote plugin repos and package them as installable .plugin files for Cowork",
+  "author": {
+    "name": "M86.ai"
+  },
+  "repository": "https://github.com/m86-ai/claude-marketplace",
+  "keywords": ["plugin-management", "sync", "remote-install"]
+}
