@@ -1,0 +1,9 @@
+{
+  "name": "docs-hub",
+  "version": "0.1.0",
+  "description": "Centralized Obsidian vault that symlinks project docs directories for cross-project search and browsing. Includes session-start sync and launchd scheduler.",
+  "author": {
+    "name": "Rodrigo Garcia"
+  },
+  "keywords": ["docs", "obsidian", "sync", "documentation", "vault"]
+}

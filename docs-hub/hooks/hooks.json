@@ -1,0 +1,14 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash -c 'start=$(date +%s%3N); ~/Ops/docs-hub-sync.sh 2>&1; end=$(date +%s%3N); ms=$((end - start)); echo \"docs-hub-sync: completed in ${ms}ms\"'",
+          "timeout": 30
+        }
+      ]
+    }
+  ]
+}
