@@ -1,11 +1,10 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "m86-claude-marketplace",
+  "description": "M86 curated plugins for Claude Code and Cowork — task management, plugin tooling, and proven development patterns",
   "owner": {
-    "name": "M86.ai"
-  },
-  "metadata": {
-    "description": "M86 curated plugins for Claude Code and Cowork",
-    "version": "0.1.0"
+    "name": "M86.ai",
+    "email": "rodrigo@m86.ai"
   },
   "plugins": [
     {
@@ -16,35 +15,29 @@
       },
       "description": "Core skills library: TDD, debugging, collaboration patterns, and proven techniques",
       "version": "4.3.1",
-      "strict": true
+      "category": "development"
     },
     {
       "name": "tasks-board",
-      "source": {
-        "source": "relative",
-        "path": "tasks-board"
-      },
+      "source": "./tasks-board",
       "description": "Visual task board backed by markdown files — epic directories, task .md files, subtask checkboxes, zero dependencies",
       "version": "0.1.0",
       "author": {
         "name": "Rodrigo Garcia"
       },
-      "tags": ["tasks", "board", "kanban", "markdown", "productivity"],
-      "strict": true
+      "category": "productivity",
+      "tags": ["tasks", "board", "kanban", "markdown", "productivity"]
     },
     {
       "name": "plugin-sync",
-      "source": {
-        "source": "relative",
-        "path": "plugin-sync"
-      },
+      "source": "./plugin-sync",
       "description": "Clone remote plugin repos and package them as installable .plugin files for Cowork — bridges Claude Code marketplace to Cowork",
       "version": "0.1.0",
       "author": {
         "name": "M86.ai"
       },
-      "tags": ["plugin-management", "sync", "remote-install", "utility"],
-      "strict": true
+      "category": "utilities",
+      "tags": ["plugin-management", "sync", "remote-install", "utility"]
     }
   ]
 }
