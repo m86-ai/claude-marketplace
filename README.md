@@ -29,3 +29,5 @@ Add as a marketplace source in plugin settings, or via `known_marketplaces.json`
 |--------|--------|-------------|
 | superpowers | [obra/superpowers](https://github.com/obra/superpowers) | TDD, debugging, collaboration patterns, proven agentic techniques |
 | tasks-board | included | Visual task board backed by markdown files — epics, tasks, subtask checkboxes, zero deps |
+| docs-hub | included | Centralized Obsidian vault syncing project docs — SessionStart hook, launchd scheduler, cross-project search |
+| gemini-peer-review | included | Invoke Gemini CLI as a peer reviewer — code review, architecture advice, debugging, security audits |
