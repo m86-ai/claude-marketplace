@@ -40,17 +40,6 @@
       "tags": ["docs", "obsidian", "sync", "documentation", "vault"]
     },
     {
-      "name": "plugin-sync",
-      "source": "./plugin-sync",
-      "description": "Clone remote plugin repos and package them as installable .plugin files for Cowork — bridges Claude Code marketplace to Cowork",
-      "version": "0.1.0",
-      "author": {
-        "name": "M86.ai"
-      },
-      "category": "utilities",
-      "tags": ["plugin-management", "sync", "remote-install", "utility"]
-    },
-    {
       "name": "gemini-peer-review",
       "source": "./gemini-peer-review",
       "description": "Invoke Gemini CLI as a peer reviewer — code review, architecture advice, debugging, and security audits synthesized with Claude's analysis",

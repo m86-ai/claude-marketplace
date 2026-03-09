@@ -28,7 +28,8 @@ Each plugin has its own `.claude-plugin/plugin.json` manifest.
 |--------|---------|--------|-------------|
 | superpowers | 4.3.1 | remote (obra/superpowers.git) | TDD, debugging, collaboration patterns |
 | tasks-board | 0.1.0 | local | Visual task board — epics, tasks, subtask checkboxes |
-| plugin-sync | 0.1.0 | local | Clone remote plugins, package as .plugin for Cowork |
+| docs-hub | 0.1.0 | local | Centralized Obsidian vault syncing project docs |
+| gemini-peer-review | 0.1.0 | local | Invoke Gemini CLI as peer reviewer for Claude Code |
 
 ## Plugin Versioning
 
