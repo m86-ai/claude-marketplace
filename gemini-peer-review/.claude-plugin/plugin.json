@@ -1,0 +1,9 @@
+{
+  "name": "gemini-peer-review",
+  "version": "0.1.0",
+  "description": "Invoke Gemini CLI as a peer reviewer for Claude Code — code review, architecture advice, debugging, and security audits via slash command.",
+  "author": {
+    "name": "m86.ai"
+  },
+  "keywords": ["gemini", "peer-review", "code-review", "security", "architecture"]
+}
