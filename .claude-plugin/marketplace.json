@@ -49,6 +49,17 @@
       },
       "category": "utilities",
       "tags": ["plugin-management", "sync", "remote-install", "utility"]
+    },
+    {
+      "name": "gemini-peer-review",
+      "source": "./gemini-peer-review",
+      "description": "Invoke Gemini CLI as a peer reviewer — code review, architecture advice, debugging, and security audits synthesized with Claude's analysis",
+      "version": "0.1.0",
+      "author": {
+        "name": "M86.ai"
+      },
+      "category": "development",
+      "tags": ["gemini", "peer-review", "code-review", "security", "architecture"]
     }
   ]
 }
